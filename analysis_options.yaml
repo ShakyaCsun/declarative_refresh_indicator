@@ -1,0 +1,6 @@
+include: package:lint/analysis_options.yaml
+
+linter:
+  rules:
+    # Use pub dependencies sorting from Pubspec Assist VSCode extension instead
+    sort_pub_dependencies: false
